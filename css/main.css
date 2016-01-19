@@ -17,7 +17,34 @@ html {
   box-sizing: inherit;
 }
 
+img {
+  height: 90%; 
+    width: 100%;
+}
+
 .mainbanner {
     background: url("../images/Summersky.jpeg") center no-repeat;
-    background-size:cover;
+    background-size: cover;
+}
+
+.symbol {
+  background-color: #ffffff;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  padding: .5em 1em;
+  border-radius: 5px;
+  display: inline-block;
+  margin: .5em;
+}
+
+.symbol:hover,
+.symbol:active,
+.symbol:focus {
+  background-color:#aaa;
+}
+
+.symbol i {
+  vertical-align: middle;
+  padding-right: 1em;s
 }

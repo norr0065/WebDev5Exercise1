@@ -18,6 +18,6 @@ html {
 }
 
 .mainbanner {
-    background: url("../images/nightsky.jpeg") center no-repeat;
-    background-size: auto;
+    background: url("../images/Summersky.jpeg") center no-repeat;
+    background-size:cover;
 }

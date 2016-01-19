@@ -17,7 +17,8 @@ html {
   box-sizing: inherit;
 }
 
-body {
-background-image: url(images/nightsky.jpeg);
+.mainbanner {
+    background: url("../images/nightsky.jpeg") center no-repeat;
+    background-size: cover;
+    padding: 10em 0;
 }
-

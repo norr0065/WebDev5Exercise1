@@ -19,6 +19,5 @@ html {
 
 .mainbanner {
     background: url("../images/nightsky.jpeg") center no-repeat;
-    background-size: cover;
-    padding: 10em 0;
+    background-size:auto;
 }
